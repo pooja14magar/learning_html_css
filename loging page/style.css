@@ -1,0 +1,82 @@
+
+body {
+    background-image: url("background\ img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.contain {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-left: 36%;
+    margin-top: 6%;
+}
+
+.contain .text {
+    position: relative;
+    top: 7%;
+}
+
+.inp1 {
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+
+.inp2 {
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+
+.text button {
+    width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 3px solid aqua;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+
+.p {
+    margin-top: 20px;
+    font-size: 10px;
+
+}
+
+.p span {
+    color: aqua;
+
+}
+
+.contain h1 {
+    font-size: 36px;
+    color: aqua;
+}
